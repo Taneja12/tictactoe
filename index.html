@@ -22,11 +22,11 @@
 </script>
 <body>
     <div class="container text-center mt-4">
-        <div class="container text-center mb-4">
+        <div class="container text-center mb-3" style="overflow:visible; " >
             <h1>Tic Tac Toe</h1>
         </div>
-        <div class="container text-center mb-4" style="width: 15%;margin-top: 3%;">
-            <table>
+        <div class="container text-center mb-4" style="overflow:visible; width: 13%;">
+            <table class="dee">
                 <tr>
                     <td><button class="btn btn-primary" id="1" style="margin-right: 2px;" onclick="func(this.id)">-</button></td>
                     <td><button class="btn btn-primary" id="2" style="margin-left: 2px; margin-right: 2px;" onclick="func(this.id)">-</button></td>
@@ -43,8 +43,11 @@
                     <td><button class="btn btn-primary" id="9" style="margin-left: 2px;" onclick="func(this.id)">-</button></td>
                 </tr>
             </table>
-            <button class="btn btn-primary mt-4" style="width: 75%; margin-right: 30px;" onclick="func1()">reset</button>
+            <div class="text-center">
+                <button class="btn btn-primary mt-4 text-center" onclick="func1()">reset</button>
+            </div>
         </div>
+        
         <div id="result" style="font-weight: bold;font-family: 'Times New Roman', Times, serif;"></div>
 
     </div>
