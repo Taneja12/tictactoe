@@ -172,3 +172,8 @@ function who_wins(t){
         document.getElementById("9").disabled = true;
     }
 }
+
+function func1()
+{
+    location.reload()
+}
